@@ -24,7 +24,7 @@ public class Main {
 
         Department d = new Department ();
         //d.setDepartment_id (7);
-        d.setDepartment_name ("abc");
+        d.setDepartment_name ("director");
         d.setPhone (0);
         departmentService.save (d);
         System.out.println ("New Department "+d.getDepartment_name () +" successfully saved under Department_id = " + d.getDepartment_id () );

@@ -12,9 +12,6 @@ public class Department {
     private int phone;
 
 
-
-    @OneToMany(mappedBy = "department")
-    private List<Employee>employeeList;
     public Department() {
     }
     public int getDepartment_id() {
@@ -36,13 +33,7 @@ public class Department {
         this.phone = phone;
     }
 
-    public List<Employee> getEmployeeList() {
-        return employeeList;
-    }
 
-    public void setEmployeeList(List<Employee> employeeList) {
-        this.employeeList = employeeList;
-    }
     @Override
     public String toString() {
         return "Department{" +
