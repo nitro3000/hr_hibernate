@@ -66,7 +66,7 @@ public class Employee {
                 ", username='" + username + '\'' +
                 ", email='" + email + '\'' +
                 ", password='" + password + '\'' +
-                ", department_id=" + departmentId +
+                ", departmentId=" + departmentId +
                 '}';
     }
 }
